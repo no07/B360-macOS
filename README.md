@@ -1,6 +1,6 @@
 # OpenCore (0.6.6) EFI for B360
 
-### Version 2.1.0
+### Version 2.1.1
 
 **CPU**: Intel i5-8600 (3,10GHz, 6 cores - 6 threads)
 
@@ -14,8 +14,7 @@
 
 **Ethernet**: Realtek 1 Gigabit Ethernet Controller
 
-~~**Audio**: Realtek ALC887 Codec~~
-**Audio**: Apple Inc. USB-C to Headphone Jack Adapter
+**Audio**: Realtek ALC887 Codec/Apple Inc. USB-C to Headphone Jack Adapter
 
 _Configured for MSI B360M Bazooka Motherboard_
 
@@ -23,12 +22,15 @@ _Configured for MSI B360M Bazooka Motherboard_
 
 # Updates
 
+- 2.1.1
+  - Update Picker resources to [LuckyCrack's Dark Theme](https://github.com/LuckyCrack/OpenCore-Themes)
+  - Change PickerVariant to `Auto`.
 - 2.1.0
   - Update to OpenCore 0.6.6
   - Update **Lilu, WhateverGreen, AppleALC, VirtualSMC** kexts.
   - Remove BootProtect key and change it to LauncherOption (OpenCore 0.6.6 change).
 - 2.0.1
-  - Change BootProtect to **Bootstrap** value.
+  - Change BootProtect to `Bootstrap` value.
 - 2.0
   - Update to OpenCore 0.6.5.
   - Update **Lilu & WhateverGreen & AppleALC** kexts.

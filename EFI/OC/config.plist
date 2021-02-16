@@ -746,11 +746,11 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Modern</string>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -853,7 +853,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>shikigva=80 alcid=28</string>
+				<string>shikigva=80 alcid=11</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -980,7 +980,7 @@
 					<key>PartNumber</key>
 					<string></string>
 					<key>SerialNumber</key>
-					<string></string>
+					<string>A4236784</string>
 					<key>Size</key>
 					<integer>4096</integer>
 					<key>Speed</key>
@@ -998,7 +998,7 @@
 					<key>PartNumber</key>
 					<string></string>
 					<key>SerialNumber</key>
-					<string></string>
+					<string>132DC448</string>
 					<key>Size</key>
 					<integer>4096</integer>
 					<key>Speed</key>
@@ -1016,7 +1016,7 @@
 					<key>PartNumber</key>
 					<string></string>
 					<key>SerialNumber</key>
-					<string></string>
+					<string>A0293729</string>
 					<key>Size</key>
 					<integer>4096</integer>
 					<key>Speed</key>
@@ -1034,7 +1034,7 @@
 					<key>PartNumber</key>
 					<string></string>
 					<key>SerialNumber</key>
-					<string></string>
+					<string>A0293729</string>
 					<key>Size</key>
 					<integer>4096</integer>
 					<key>Speed</key>
