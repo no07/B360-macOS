@@ -23,7 +23,7 @@ _Configured for MSI B360M Bazooka Motherboard_
 # Updates
 
 - 2.1.1
-  - Update Picker resources to [LuckyCrack's Dark Theme](https://github.com/LuckyCrack/OpenCore-Themes)
+  - Update Picker resources to [LuckyCrack's Dark Theme](https://github.com/LuckyCrack/OpenCore-Themes).
   - Change PickerVariant to `Auto`.
 - 2.1.0
   - Update to OpenCore 0.6.6
@@ -31,7 +31,7 @@ _Configured for MSI B360M Bazooka Motherboard_
   - Remove BootProtect key and change it to LauncherOption (OpenCore 0.6.6 change).
 - 2.0.1
   - Change BootProtect to `Bootstrap` value.
-- 2.0
+- 2.0.0
   - Update to OpenCore 0.6.5.
   - Update **Lilu & WhateverGreen & AppleALC** kexts.
   - Add forgotten CPUFriend kext.
