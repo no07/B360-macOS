@@ -1,6 +1,6 @@
-# OpenCore (0.6.6) EFI for B360
+# OpenCore (0.6.7) EFI for B360
 
-### Version 2.1.1
+### Version 2.2.0
 
 **CPU**: Intel i5-8600 (3,10GHz, 6 cores - 6 threads)
 
@@ -22,6 +22,10 @@ _Configured for MSI B360M Bazooka Motherboard_
 
 # Updates
 
+- 2.2.0
+  - Update Picker resources to _better ones_.
+  - Update OpenCore version to ``0.6.7``.
+  - Update **WhateverGreen, AppleALC, VirtualSMC** kexts.
 - 2.1.1
   - Update Picker resources to [LuckyCrack's Dark Theme](https://github.com/LuckyCrack/OpenCore-Themes)
   - Change PickerVariant to `Auto`.
