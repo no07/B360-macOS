@@ -27,7 +27,7 @@ _Configured for MSI B360M Bazooka Motherboard_
   - Update OpenCore version to ``0.6.7``.
   - Update **WhateverGreen, AppleALC, VirtualSMC** kexts.
 - 2.1.1
-  - Update Picker resources to [LuckyCrack's Dark Theme](https://github.com/LuckyCrack/OpenCore-Themes)
+  - Update Picker resources to [LuckyCrack's Dark Theme](https://github.com/LuckyCrack/OpenCore-Themes).
   - Change PickerVariant to `Auto`.
 - 2.1.0
   - Update to OpenCore 0.6.6
@@ -35,7 +35,22 @@ _Configured for MSI B360M Bazooka Motherboard_
   - Remove BootProtect key and change it to LauncherOption (OpenCore 0.6.6 change).
 - 2.0.1
   - Change BootProtect to `Bootstrap` value.
-- 2.0
+- 2.0.0
   - Update to OpenCore 0.6.5.
   - Update **Lilu & WhateverGreen & AppleALC** kexts.
   - Add forgotten CPUFriend kext.
+
+# FAQ
+___Q: Why ``MacPro7,1`` SMBIOS?___
+
+A: On this SMBIOS we are getting iServices out-of-box without any issues etc. People will say that Power Management for my CPU can be borked on this SMBIOS but it isn't since I'm patching it with CPUFriend kext.
+
+___Q: Why my USB ports doesn't work?___
+
+A: You should patch your USB ports by yourself with [USBMap python script](https://github.com/CorpNewt/USBMap) and just replace my USBMap.kext with your generated.
+
+___Q: Why my Power Management is borked for 8th/9th x CPU?___
+
+A: You should check [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend) and generate ProviderData kext and replace mine.
+
+_DISCLAIMER: This config was made for my hardware. Everyone have different one and not always exact - so please, don't use this config as yours, but just follow [dortania guide](https://dortania.github.io/OpenCore-Install-Guide/) and inspirate with mine if you really need to._
