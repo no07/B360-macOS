@@ -18,7 +18,7 @@
 
 _Configured for MSI B360M Bazooka Motherboard_
 
-![proof](https://i.ririxi.dev/macos_new.png)
+![proof](https://i.imgur.com/MKhoOPH.png)
 
 # Updates
 
